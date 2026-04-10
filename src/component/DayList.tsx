@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import useFetch from '../hooks/useFetch';
 
-interface IDay{
+export interface IDay{
     id: number, 
     day: number;
 }
